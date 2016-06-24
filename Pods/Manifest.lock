@@ -1,0 +1,31 @@
+PODS:
+  - BaiduMapKit (2.10.2)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - RealReachability (1.1.7):
+    - RealReachability/Connection (= 1.1.7)
+    - RealReachability/Ping (= 1.1.7)
+  - RealReachability/Connection (1.1.7)
+  - RealReachability/Ping (1.1.7)
+  - tingyunApp (2.3.6)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - FMDB (~> 2.6.2)
+  - MBProgressHUD (~> 0.9.2)
+  - MJRefresh (~> 3.1.0)
+  - RealReachability (~> 1.1.7)
+  - tingyunApp (~> 2.3.6)
+
+SPEC CHECKSUMS:
+  BaiduMapKit: b1706a062597c70ec62a0cca93212cba1d3017e1
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  RealReachability: 8b6644c6b3145f7552ed83bffb52c49b0f3b55e3
+  tingyunApp: d43e20d2506bfcf54e30dc36e75782c05494e3a5
+
+COCOAPODS: 0.39.0

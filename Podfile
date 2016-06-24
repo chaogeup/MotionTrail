@@ -1,0 +1,7 @@
+platform:ios,'8.0'
+pod 'BaiduMapKit'
+pod 'FMDB', '~> 2.6.2'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'RealReachability', '~> 1.1.7'
+pod 'tingyunApp', '~> 2.3.6'

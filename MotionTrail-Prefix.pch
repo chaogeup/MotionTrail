@@ -1,0 +1,27 @@
+//
+//  MotionTrail.pch
+//  MotionTrail
+//
+//  Created by chao on 16/6/22.
+//  Copyright © 2016年 DoctorMundo. All rights reserved.
+//
+
+#ifndef MotionTrail_pch
+#define MotionTrail_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MotionTrail_pch */
+
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define DLog(...)
+#endif
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+#ifdef __OBJC__
+#import <tingyunApp/NBSAppAgent.h>
+//...
+#endif
